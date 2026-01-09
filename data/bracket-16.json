@@ -1,0 +1,82 @@
+{
+   "w1": {
+      "round": 1,
+      "players": [1, 16],
+      "feeds": ["w9", 0]
+   },
+   "w2": {
+      "round": 1,
+      "players": [8, 9],
+      "feeds": ["w9", 1]
+   },
+   "w3": {
+      "round": 1,
+      "players": [4, 13],
+      "feeds": ["w10", 0]
+   },
+   "w4": {
+      "round": 1,
+      "players": [5, 12],
+      "feeds": ["w10", 1]
+   },
+   "w5": {
+      "round": 1,
+      "players": [2, 15],
+      "feeds": ["w11", 0]
+   },
+   "w6": {
+      "round": 1,
+      "players": [7, 10],
+      "feeds": ["w11", 1]
+   },
+   "w7": {
+      "round": 1,
+      "players": [3, 14],
+      "feeds": ["w12", 0]
+   },
+   "w8": {
+      "round": 1,
+      "players": [6, 11],
+      "feeds": ["w12", 1]
+   },
+   "w9": {
+      "round": 2,
+      "players": [0, 0],
+      "feeds": ["w13", 0]
+   },
+   "w10": {
+      "round": 2,
+      "players": [0, 0],
+      "feeds": ["w13", 1]
+   },
+   "w11": {
+      "round": 2,
+      "players": [0, 0],
+      "feeds": ["w14", 0]
+   },
+   "w12": {
+      "round": 2,
+      "players": [0, 0],
+      "feeds": ["w14", 1]
+   },
+   "w13": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w15", 0]
+   },
+   "w14": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w15", 1]
+   },
+   "w15": {
+      "round": 4,
+      "players": [0, 0],
+      "feeds": ["w16", 0]
+   },
+   "w16": {
+      "round": 5,
+      "players": [0],
+      "final": true
+   }
+}

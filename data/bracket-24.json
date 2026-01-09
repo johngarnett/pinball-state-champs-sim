@@ -1,0 +1,122 @@
+{
+   "w2": {
+      "round": 1,
+      "players": [16, 17],
+      "feeds": ["w17", 1]
+   },
+   "w3": {
+      "round": 1,
+      "players": [9, 24],
+      "feeds": ["w18", 0]
+   },
+   "w6": {
+      "round": 1,
+      "players": [13, 20],
+      "feeds": ["w19", 1]
+   },
+   "w7": {
+      "round": 1,
+      "players": [12, 21],
+      "feeds": ["w20", 0]
+   },
+   "w10": {
+      "round": 1,
+      "players": [15, 18],
+      "feeds": ["w21", 1]
+   },
+   "w11": {
+      "round": 1,
+      "players": [10, 23],
+      "feeds": ["w22", 0]
+   },
+   "w14": {
+      "round": 1,
+      "players": [14, 19],
+      "feeds": ["w23", 1]
+   },
+   "w15": {
+      "round": 1,
+      "players": [11, 22],
+      "feeds": ["w24", 0]
+   },
+   "w17": {
+      "round": 2,
+      "players": [1, 0],
+      "feeds": ["w25", 0]
+   },
+   "w18": {
+      "round": 2,
+      "players": [0, 8],
+      "feeds": ["w25", 1]
+   },
+   "w19": {
+      "round": 2,
+      "players": [4, 0],
+      "feeds": ["w26", 0]
+   },
+   "w20": {
+      "round": 2,
+      "players": [0, 5],
+      "feeds": ["w26", 1]
+   },
+   "w21": {
+      "round": 2,
+      "players": [2, 0],
+      "feeds": ["w27", 0]
+   },
+   "w22": {
+      "round": 2,
+      "players": [0, 7],
+      "feeds": ["w27", 1]
+   },
+   "w23": {
+      "round": 2,
+      "players": [3, 0],
+      "feeds": ["w28", 0]
+   },
+   "w24": {
+      "round": 2,
+      "players": [0, 6],
+      "feeds": ["w28", 1]
+   },
+   "w25": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w29", 0]
+   },
+   "w26": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w29", 1]
+   },
+   "w27": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w30", 0]
+   },
+   "w28": {
+      "round": 3,
+      "players": [0, 0],
+      "feeds": ["w30", 1]
+   },
+   "w29": {
+      "round": 4,
+      "players": [0, 0],
+      "feeds": ["w31", 0]
+   },
+   "w30": {
+      "round": 4,
+      "players": [0, 0],
+      "feeds": ["w31", 1]
+   },
+   "w31": {
+      "round": 5,
+      "players": [0, 0],
+      "feeds": ["w32", 0]
+   },
+   "w32": {
+      "round": 6,
+      "players": [0],
+      "final": true
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "name": "state",
+   "version": "1.0.0",
+   "description": "Pinball tournament bracket simulation using Glicko ratings",
+   "main": "open.js",
+   "scripts": {
+      "start": "node open.js"
+   },
+   "keywords": [
+      "pinball",
+      "tournament",
+      "glicko",
+      "simulation"
+   ],
+   "author": "John Garnett",
+   "license": "MIT",
+   "dependencies": {
+      "@stdlib/random-base-minstd": "^0.2.1",
+      "@stdlib/random-base-normal": "^0.2.1",
+      "commander": "^14.0.2",
+      "csv-parse": "^5.6.0"
+   }
+}
