@@ -35,3 +35,7 @@ node state.js > results.tsv
 # Help
 
 node state.js --help
+
+# Source Code Repository
+
+https://github.com/johngarnett/pinball-state-champs-sim
