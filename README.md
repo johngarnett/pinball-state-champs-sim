@@ -1,8 +1,8 @@
-coded by John Garnett, Jan 8, 2026
-no warranty expressed or implied.
-Copyright 2026 by John Garnett
-License: MIT ( https://opensource.org/licenses/MIT )
-description: Simulates IFPA State Championships, assuming a field size of 24
+* coded by John Garnett, Jan 8, 2026
+* no warranty expressed or implied.
+* Copyright 2026 by John Garnett
+* License: MIT ( https://opensource.org/licenses/MIT )
+* description: Simulates IFPA State Championships, assuming a field size of 24
 
 # Details
 
