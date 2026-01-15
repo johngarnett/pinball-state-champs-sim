@@ -1,0 +1,1 @@
+create an update-ratings.js script which uses matchplay-api.js to fetch updated ratings from matchplay.events. Use dotenv package to read .env file to get matchplay api key. Be sure to sleep for 600ms between calls to matchplay.events to avoid rate-limiting. update-ratings should take a --field flag to specify which list of players to update.
