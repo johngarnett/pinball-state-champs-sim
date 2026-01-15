@@ -9,14 +9,31 @@ Monte Carlo simulation for pinball tournament brackets. Simulates match outcomes
 ## Commands
 
 ```bash
-npm start          # Run simulation (outputs TSV to stdout)
-node open.js       # Same as above
+node state.js                           # Run simulation with default field (open-field)
+node state.js --field women-field       # Run with a different field file
+node state.js --tournament 12345        # Fetch field from Matchplay.events tournament
+node state.js --tournament 12345 --clear # Clear cache before fetching
+node state.js --iterations 100000       # Run fewer iterations (default: 1000000)
+node state.js --seed 123                # Use different random seed (default: 42)
+node state.js --help                    # Show all options
 ```
 
 ## Data Files
 
-- `field.tsv` - Tab-delimited player data with columns: name, seed, rating, rd
-- `bracket.json` - Tournament bracket structure defining matches and progression
+- `./data/<field-name>.tsv` - Tab-delimited player data with columns: name, seed, rating, rd
+- `./data/bracket-16.json` - Bracket structure for 16-player tournaments
+- `./data/bracket-24.json` - Bracket structure for 24-player tournaments
+- `./results/` - Output directory for simulation results (TSV and JSON formats)
+- `.cache/` - Cached tournament data from Matchplay API (24-hour TTL)
+
+## Environment Variables
+
+Create a `.env` file with:
+```
+MATCHPLAY_API_TOKEN=your_api_token_here
+```
+
+Required for `--tournament` flag to fetch player data from Matchplay.events.
 
 ## Code Style
 
@@ -27,4 +44,13 @@ node open.js       # Same as above
 ## Key Dependencies
 
 - `@stdlib/random-base-minstd` and `@stdlib/random-base-normal` for seeded RNG
-- Note: stdlib packages use hyphens in require paths (e.g., `require('@stdlib/random-base-minstd')`) not slashes
+- `dotenv` for environment variable loading
+- `commander` for CLI argument parsing
+- `csv-parse` for TSV file parsing
+
+Note: stdlib packages use hyphens in require paths (e.g., `require('@stdlib/random-base-minstd')`) not slashes
+
+## Architecture
+
+- `state.js` - Main simulation entry point
+- `matchplay-api.js` - Matchplay.events API integration with caching
