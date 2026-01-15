@@ -303,6 +303,9 @@ async function getTournamentField(tournamentId, skipCache = false) {
         console.error(`Loaded: ${name} (seed ${seed}, rating ${rating}, rd ${rd})`)
     }
 
+    // Sort by seed so field[0] is seed 1, field[1] is seed 2, etc.
+    field.sort((a, b) => a.seed - b.seed)
+
     writeCache(tournamentId, field)
     return field
 }
